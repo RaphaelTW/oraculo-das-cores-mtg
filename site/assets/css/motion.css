@@ -1,0 +1,118 @@
+/* ORÁCULO DAS CORES — CINEMATIC MOTION SYSTEM
+   Original revolving astrolabe. Decorative motion is reversible and user-configurable.
+   No third-party JS, analytics, canvas/WebGL, or UI-framework dependencies. */
+
+/* Long-form reading indicator */
+.reading-progress{position:fixed;inset:0 0 auto;height:3px;z-index:1000;pointer-events:none;overflow:hidden}
+.reading-progress>span{display:block;transform:scaleX(0);transform-origin:left center;height:100%;width:100%;background:linear-gradient(90deg,var(--U),var(--R),var(--signal));box-shadow:0 0 9px #b7da7080;will-change:transform}
+
+/* The portal SVG is deliberately inline so all rings can rotate independently.
+   Match the illustration's original composition and preserve its SVG title/role. */
+.hero-visual{isolation:isolate;--portal-active:#9fd15b;--portal-shift-x:0px;--portal-shift-y:0px}
+.hero-visual>.portal-illustration{width:100%;height:100%;min-height:520px;display:block;object-fit:cover;object-position:center 39%;transform:translate3d(var(--portal-shift-x),var(--portal-shift-y),0) scale(1.035);transition:transform .45s cubic-bezier(.19,1,.22,1);will-change:transform}
+.hero-visual:hover>.portal-illustration{transform:translate3d(var(--portal-shift-x),var(--portal-shift-y),0) scale(1.055)}
+.portal-illustration .portal-heart circle{fill:var(--portal-active)!important;transition:fill .5s ease;filter:drop-shadow(0 0 8px var(--portal-active))}
+.portal-illustration .portal-orbit{transform-box:view-box;transform-origin:358px 288px;will-change:transform}
+.portal-illustration .portal-orbit-outer{animation:orbitClockwise 46s linear infinite}
+.portal-illustration .portal-orbit-middle{animation:orbitCounter 28s linear infinite}
+.portal-illustration .portal-orbit-inner{animation:orbitClockwise 17s linear infinite}
+.portal-illustration .portal-heart{transform-box:view-box;transform-origin:358px 288px;animation:heartPulse 4s ease-in-out infinite}
+.portal-aurora{position:absolute;pointer-events:none;inset:5% 12% 36%;z-index:1;background:radial-gradient(circle at 53% 48%,var(--portal-active) 0%,transparent 46%);opacity:.16;mix-blend-mode:screen;filter:blur(28px);transition:background .5s ease;animation:auroraBreath 6s ease-in-out infinite}
+@keyframes orbitClockwise{to{transform:rotate(360deg)}}
+@keyframes orbitCounter{to{transform:rotate(-360deg)}}
+@keyframes heartPulse{50%{opacity:.73;transform:scale(1.065)}}
+@keyframes auroraBreath{50%{opacity:.25;transform:scale(1.06)}}
+.motion-paused .portal-illustration .portal-orbit,.motion-paused .portal-illustration .portal-heart,.motion-paused .portal-aurora{animation-play-state:paused!important}
+.motion-toggle{position:absolute;z-index:3;left:17px;bottom:55px;display:flex;align-items:center;gap:9px;color:#eff1e7;background:#121a14df;border:1px solid #ffffff79;padding:10px 13px;font:600 9px var(--mono);letter-spacing:.07em;transition:background .2s,border-color .2s}
+.motion-toggle:hover{background:#0f1612;border-color:#b4d978;color:#b4d978}
+.motion-icon{font:700 13px var(--mono);line-height:1}
+
+/* The mana tuner is an interaction, not a disguised second quiz. */
+.mana-tuner{width:min(100%,475px);margin:21px 0 3px;padding:15px 0 8px;border-top:1px solid var(--fine-line);border-bottom:1px solid var(--fine-line)}
+.tuner-header{display:flex;justify-content:space-between;gap:8px;align-items:center;font:600 9px var(--mono);letter-spacing:.08em;color:var(--text)}
+.tuner-header small{color:var(--muted);font:400 9px var(--mono)}
+.tuner-buttons{display:flex;align-items:center;gap:7px;margin:13px 0 11px}
+.tuner-color{width:44px;height:44px;border:1px solid var(--fine-line);border-radius:0;background:transparent;display:grid;place-items:center;transition:transform .22s,border-color .22s,background .22s;position:relative}
+.tuner-color .mana{width:28px;height:28px;font-size:11px;transition:transform .25s}
+.tuner-color:hover,.tuner-color.active{background:var(--surface2);border-color:var(--signal);transform:translateY(-2px)}
+.tuner-color:hover .mana,.tuner-color.active .mana{transform:scale(1.12)}
+.tuner-color.active:after{content:'';position:absolute;bottom:-5px;left:calc(50% - 5px);border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid var(--signal)}
+.tuner-message{min-height:35px;display:flex;gap:11px;align-items:center}
+.tuner-sigil{display:inline-grid;place-items:center;color:var(--signal);font:24px var(--display);width:29px}
+.tuner-message p{display:flex;flex-direction:column;gap:1px;margin:0;font-size:12px;line-height:1.4;color:var(--muted)}
+.tuner-message strong{font:700 10px var(--mono);letter-spacing:.03em;color:var(--text)}
+.tuner-message.is-changing{animation:manaMessage .35s cubic-bezier(.21,.7,.26,1) both}
+@keyframes manaMessage{from{opacity:.3;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+/* Editorial interactions */
+.identity-mark svg{transition:transform .55s cubic-bezier(.2,.9,.2,1)}
+.identity:hover .identity-mark svg{transform:rotate(90deg)}
+.guild-item{width:100%;cursor:pointer;text-align:left;color:var(--text);font-family:var(--body)}
+.guild-item .guild-icons .mana{transition:transform .25s ease}
+.guild-item:hover .guild-icons .mana:first-child,.guild-item[aria-pressed="true"] .guild-icons .mana:first-child{transform:translateX(-2px) rotate(-15deg)}
+.guild-item:hover .guild-icons .mana:last-child,.guild-item[aria-pressed="true"] .guild-icons .mana:last-child{transform:translateX(2px) rotate(15deg)}
+.guild-item[aria-pressed="true"]{background:color-mix(in srgb,var(--signal),transparent 91%);padding-left:13px;border-bottom-color:var(--signal)}
+.guild-item[aria-pressed="true"] strong{color:var(--signal)}
+.guild-inspector{margin:28px 0 0;padding:24px clamp(17px,3vw,38px) 20px;border:1px solid var(--fine-line);background:linear-gradient(120deg,var(--surface),transparent 70%);position:relative;overflow:hidden}
+.guild-inspector::after{content:'';position:absolute;right:-45px;top:-70px;width:235px;height:235px;border:1px solid var(--fine-line);border-radius:50%;box-shadow:0 0 0 29px #8994820c,0 0 0 58px #89948208;pointer-events:none}
+.inspector-kicker,.inspector-foot{display:block;color:var(--muted);font:500 9px var(--mono);letter-spacing:.09em;position:relative;z-index:1}
+.inspector-main{display:flex;align-items:center;gap:24px;margin:17px 0;position:relative;z-index:1}
+.guild-inspector-icons{min-width:70px;display:flex;gap:0;align-items:center}
+.guild-inspector-icons .mana{width:36px;height:36px;font-size:13px;margin-left:-3px}
+.guild-inspector h3{font:900 clamp(28px,3vw,43px)/1 var(--display);letter-spacing:-.06em;text-transform:uppercase;margin:0 0 6px;color:var(--signal)}
+.guild-inspector p{margin:0;color:var(--muted);font-size:13px;max-width:690px}
+.guild-inspector.is-changing .inspector-main{animation:inspectorShift .35s ease-out}
+@keyframes inspectorShift{from{opacity:.25;transform:translateY(6px)}to{opacity:1;transform:none}}
+/* One-time entrance, not distracting perpetual movement. */
+.reveal-pending{opacity:0;transform:translateY(25px);transition:opacity .7s cubic-bezier(.2,.8,.2,1),transform .7s cubic-bezier(.2,.8,.2,1);transition-delay:var(--reveal-delay,0ms)}
+.reveal-pending.in-view{opacity:1;transform:translateY(0)}
+.quiz-content.question-swap .qtitle{animation:questionAppear .48s cubic-bezier(.17,.8,.28,1) both}
+.quiz-content.question-swap .option{animation:answerAppear .38s cubic-bezier(.2,.7,.3,1) both;animation-delay:calc(var(--option-order,0)*47ms)}
+@keyframes questionAppear{from{opacity:.15;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes answerAppear{from{opacity:0;transform:translateX(15px)}to{opacity:1;transform:translateX(0)}}
+.option:focus-visible{z-index:1}
+.option.selected{box-shadow:inset 3px 0 var(--signal)}
+.progress>div{position:relative}
+.progress>div::after{content:'';position:absolute;right:0;top:0;width:30px;height:100%;background:linear-gradient(90deg,transparent,#f4ffe8);box-shadow:0 0 9px var(--signal)}
+/* Chart: grow once the result has been computed and revealed. */
+.results .fill{transform-origin:left;transition:transform 1.05s cubic-bezier(.15,.78,.2,1)}
+.results:not(.result-entered) .fill{transform:scaleX(0)}
+.results.result-entered .fill{transform:scaleX(1)}
+.results.result-entered .round svg{animation:revealDonut .85s cubic-bezier(.2,.85,.25,1) both}
+@keyframes revealDonut{from{opacity:.1;transform:rotate(-90deg) scale(.79)}to{opacity:1;transform:rotate(-90deg) scale(1)}}
+.results .round:hover .center strong{color:var(--signal);transition:color .22s}
+/* A subtle horizontal highlight on interactive editorial cards */
+.lore-card{position:relative;overflow:hidden}
+.lore-card::after{content:'';position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--signal);transition:width .4s cubic-bezier(.2,.8,.2,1)}
+.lore-card:hover::after{width:100%}
+
+@media(max-width:1160px){.mana-tuner{margin-top:12px}.hero-copy{padding-bottom:18px}.hero h1{margin-top:clamp(24px,4vh,50px)}}
+@media(max-width:910px){.tuner-header small{display:none}.mana-tuner{margin-top:5px}.tuner-buttons{margin-block:9px}.tuner-message p{font-size:11px}}
+@media(max-width:700px){
+ .hero-visual>.portal-illustration{min-height:0;height:100%;object-fit:cover;object-position:center 32%}
+ .mana-tuner{margin-top:17px;margin-bottom:12px;padding-top:13px}.tuner-header small{display:block;font-size:8px}
+ .tuner-message{min-height:33px}.motion-toggle{bottom:47px;left:10px;font-size:8px;padding:8px 10px}
+ .guild-inspector{margin-top:15px;padding:22px 18px}.guild-inspector-icons{min-width:55px}.guild-inspector-icons .mana{height:29px;width:29px}
+ .guild-inspector p{font-size:12px}.inspector-main{gap:12px}.guild-inspector h3{font-size:28px}
+}
+@media (prefers-reduced-motion:reduce){
+ .portal-illustration .portal-orbit,.portal-illustration .portal-heart,.portal-aurora{animation:none!important;will-change:auto}
+ .motion-toggle{display:none!important}
+ .hero-visual>.portal-illustration,.hero-visual:hover>.portal-illustration{transform:none!important;will-change:auto}
+ .reveal-pending{opacity:1!important;transform:none!important;transition:none!important}
+ .quiz-content.question-swap .qtitle,.quiz-content.question-swap .option,.results.result-entered .round svg,.guild-inspector.is-changing .inspector-main,.tuner-message.is-changing{animation:none!important}
+ .results .fill{transition:none!important;transform:none!important}
+}
+@media print{.reading-progress,.mana-tuner,.motion-toggle,.portal-aurora,.guild-inspector{display:none!important}.reveal-pending{opacity:1!important;transform:none!important}}
+
+/* On phones the portal is part of the opening act, not buried after the form. */
+@media(max-width:700px){
+ .hero-main{display:grid;grid-template-columns:minmax(0,1fr)}
+ .hero-copy{display:contents}
+ .hero-index{grid-row:1;margin-top:22px}
+ .hero h1{grid-row:2;margin:36px 0 23px}
+ .hero-visual{grid-row:3;height:365px;min-height:0}
+ .hero-description{grid-row:4;margin:23px 0 14px}
+ .mana-tuner{grid-row:5;margin:7px 0 10px}
+ .hero-cta{grid-row:6;margin:10px 0 0;padding-top:12px}
+ .hero-legal{grid-row:7;margin:15px 0 25px}
+}

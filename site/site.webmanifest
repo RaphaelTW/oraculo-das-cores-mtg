@@ -1,0 +1,14 @@
+{
+  "name": "Oráculo das Cores — Quiz de Magic",
+  "short_name": "Oráculo MTG",
+  "description": "Descubra sua identidade de mana em Magic: The Gathering",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#111512",
+  "theme_color": "#b7da70",
+  "lang": "pt-BR",
+  "icons": [
+    {"src":"./assets/img/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./assets/img/icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}

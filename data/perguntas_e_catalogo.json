@@ -1,0 +1,3893 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "section": "Personalidade e valores",
+      "text": "O que mais te motiva no dia a dia?",
+      "options": [
+        {
+          "text": "Contribuir para algo maior e proteger quem está comigo.",
+          "w": {
+            "W": 3,
+            "G": 1
+          },
+          "tags": [
+            "tokens",
+            "politics"
+          ]
+        },
+        {
+          "text": "Aprender, dominar assuntos complexos e evoluir.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control",
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Ter autonomia, conquistar objetivos e prosperar.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Viver intensamente, experimentar e seguir minha vontade.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Crescer no meu ritmo e preservar o que é importante.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Construir sistemas eficientes, sem depender de ninguém.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "section": "Personalidade e valores",
+      "text": "Quando alguém discorda fortemente de você, sua primeira reação é...",
+      "options": [
+        {
+          "text": "Buscar acordo e regras justas para todos.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Pedir fatos, analisar e debater com precisão.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Avaliar o que posso ganhar ou perder com o conflito.",
+          "w": {
+            "B": 3,
+            "U": 1
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Expressar exatamente o que sinto, mesmo com intensidade.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Escutar, dar espaço e confiar que as diferenças existem.",
+          "w": {
+            "G": 3,
+            "W": 1
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "section": "Personalidade e valores",
+      "text": "Qual dessas qualidades você mais admira?",
+      "options": [
+        {
+          "text": "Lealdade.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Inteligência.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Determinação.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Coragem.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Resiliência.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Precisão e engenhosidade.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "section": "Personalidade e valores",
+      "text": "Em um grupo novo, você tende a...",
+      "options": [
+        {
+          "text": "Organizar as pessoas e ajudar a equipe.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Observar, entender as dinâmicas e só depois agir.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Identificar oportunidades e aliados estratégicos.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Puxar assunto e criar energia no ambiente.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Apoiar sem impor liderança.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "section": "Personalidade e valores",
+      "text": "Qual é a melhor maneira de mudar o mundo?",
+      "options": [
+        {
+          "text": "Reformar instituições e estabelecer direitos.",
+          "w": {
+            "W": 3,
+            "U": 1
+          },
+          "tags": [
+            "stax"
+          ]
+        },
+        {
+          "text": "Investir em ciência, educação e inovação.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Dar liberdade para cada pessoa buscar seus objetivos.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Questionar convenções e provocar mudanças imediatas.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Restaurar o equilíbrio com a natureza e o que já funciona.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Criar tecnologias que substituam processos falhos.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "section": "Personalidade e valores",
+      "text": "Se pudesse escolher um superpoder, escolheria...",
+      "options": [
+        {
+          "text": "Criar barreiras para proteger outras pessoas.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Controlar o tempo para antecipar possibilidades.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Trazer alguém ou algo de volta da morte.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "reanimator"
+          ]
+        },
+        {
+          "text": "Controlar relâmpagos e fogo.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn"
+          ]
+        },
+        {
+          "text": "Falar com a natureza e crescer sem limites.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Manipular máquinas e energia pura.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "section": "Personalidade e valores",
+      "text": "Diante de uma injustiça, você...",
+      "options": [
+        {
+          "text": "Defende um procedimento justo, mesmo que demore.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Reúne provas e desmonta os argumentos.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Usa os recursos disponíveis para virar o jogo.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Age imediatamente para defender quem precisa.",
+          "w": {
+            "R": 3,
+            "W": 1
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Protege os vulneráveis e busca reparar o dano.",
+          "w": {
+            "G": 3,
+            "W": 1
+          },
+          "tags": [
+            "lifegain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "section": "Personalidade e valores",
+      "text": "O que seria uma vida bem-sucedida para você?",
+      "options": [
+        {
+          "text": "Uma comunidade forte e relações estáveis.",
+          "w": {
+            "W": 3,
+            "G": 1
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Conhecimento e capacidade de fazer escolhas informadas.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Independência financeira e liberdade de decisão.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Experiências marcantes e autenticidade.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Paz, saúde e conexão com o ambiente.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "section": "Personalidade e valores",
+      "text": "Qual frase combina mais com você?",
+      "options": [
+        {
+          "text": "Juntos, somos mais fortes.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Sempre existe algo novo a descobrir.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "O resultado importa e todo recurso tem valor.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Siga seu coração.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "O crescimento leva tempo.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "O projeto perfeito funciona sem falhas.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "section": "Decisões e dilemas",
+      "text": "Você recebe um recurso raro. O que faz?",
+      "options": [
+        {
+          "text": "Divide com o grupo para fortalecer todos.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Estuda como multiplicar sua utilidade.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Guarda ou investe para adquirir vantagem.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Usa agora na oportunidade mais empolgante.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Cultiva para que renda naturalmente no futuro.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "section": "Decisões e dilemas",
+      "text": "Um plano cuidadosamente preparado falha. Sua reação?",
+      "options": [
+        {
+          "text": "Reorganizar funções e proteger a equipe.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Diagnosticar a falha e ajustar cada variável.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Trocar de estratégia sem apego às perdas.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Improvisar e agir antes que a chance desapareça.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Aceitar o imprevisto e reconstruir com paciência.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Automatizar para que o erro não se repita.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "section": "Decisões e dilemas",
+      "text": "Qual preço você aceitaria pagar por uma grande conquista?",
+      "options": [
+        {
+          "text": "Só aceito se não prejudicar inocentes.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Tempo e estudo: primeiro quero entender os riscos.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Sacrifícios pessoais e recursos, se valer a pena.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Assumir um risco alto por algo que amo.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Avançar devagar e respeitar meus limites.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "section": "Decisões e dilemas",
+      "text": "Você descobre uma regra pouco eficiente. O que faz?",
+      "options": [
+        {
+          "text": "Propõe uma mudança coletiva e transparente.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Analisa a regra e cria um modelo melhor.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Explora uma brecha legítima para ganhar vantagem.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Ignora a convenção se estiver impedindo alguém.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Mantém o que funciona e corrige só o necessário.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "section": "Decisões e dilemas",
+      "text": "Num cenário de pouca informação, você prefere...",
+      "options": [
+        {
+          "text": "Consultar pessoas de confiança.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Investigar até reduzir a incerteza.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Agir de forma calculada usando o que sei.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Arriscar e adaptar no caminho.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Seguir experiência e intuição.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "section": "Decisões e dilemas",
+      "text": "Em uma disputa, o que considera mais importante?",
+      "options": [
+        {
+          "text": "Competir respeitando acordos.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Superar pela preparação e técnica.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Encontrar qualquer linha válida para vencer.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Uma partida emocionante e cheia de reviravoltas.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Construir algo consistente e resistente.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "O mecanismo executar exatamente como planejei.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "section": "Decisões e dilemas",
+      "text": "Como você resolve um problema difícil?",
+      "options": [
+        {
+          "text": "Reúno pessoas com habilidades complementares.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Divido em partes e testo hipóteses.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Busco a solução mais eficaz, mesmo impopular.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Experimento imediatamente várias saídas.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Começo pela base e deixo evoluir.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "section": "Decisões e dilemas",
+      "text": "Ao perder algo importante, você...",
+      "options": [
+        {
+          "text": "Recorre à rede de apoio.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Entende o que ocorreu para não repetir.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Recupera o que puder e reaproveita o resto.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Converte a frustração em energia para agir.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Aceita o ciclo e recomeça.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "graveyard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "section": "Decisões e dilemas",
+      "text": "Qual tipo de organização mais te representa?",
+      "options": [
+        {
+          "text": "Uma ordem protetora, guiada por princípios.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Uma academia de pesquisa e magia.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Uma rede de influência e negócios.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Um coletivo livre e criativo.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Uma comunidade ligada à terra.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Uma oficina de autômatos inteligentes.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "section": "Estilo de jogo",
+      "text": "Como você prefere vencer uma partida de Magic?",
+      "options": [
+        {
+          "text": "Com sinergia coletiva e ataques coordenados.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Controlando o jogo até ter a resposta certa.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Transformando sacrifícios e cemitério em vantagem.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice",
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Causando pressão e dano desde os primeiros turnos.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro",
+            "burn"
+          ]
+        },
+        {
+          "text": "Acelerando mana e atacando com ameaças gigantes.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp",
+            "stompy"
+          ]
+        },
+        {
+          "text": "Montando um mecanismo de artefatos.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact",
+            "combo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "section": "Estilo de jogo",
+      "text": "Que turno inicial parece mais divertido?",
+      "options": [
+        {
+          "text": "Criar pequenos bloqueadores e desenvolver mesa.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Guardar mana para responder ao adversário.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Descartar ou remover a peça-chave do rival.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "discard"
+          ]
+        },
+        {
+          "text": "Atacar com criaturas de baixo custo.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Baixar um acelerador de mana.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Colocar uma pedra de mana ou artefato útil.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "section": "Estilo de jogo",
+      "text": "Qual resposta a uma remoção global mais te agrada?",
+      "options": [
+        {
+          "text": "Proteger minhas criaturas ou reconstruir o exército.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Anular a mágica no momento certo.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Trazer minhas criaturas do cemitério.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "reanimator"
+          ]
+        },
+        {
+          "text": "Fazer o rival pagar por me dar um turno livre.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn"
+          ]
+        },
+        {
+          "text": "Voltar com mais criaturas grandes.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        },
+        {
+          "text": "Recuperar peças de artefato e reiniciar o motor.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section": "Estilo de jogo",
+      "text": "O que mais te diverte quando compra uma carta?",
+      "options": [
+        {
+          "text": "Aquela que melhora todo o meu campo.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Mais compras e seleção de cartas.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "draw"
+          ]
+        },
+        {
+          "text": "Uma remoção eficiente ou um tutor decisivo.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Uma mágica explosiva que muda a corrida.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn"
+          ]
+        },
+        {
+          "text": "Uma ameaça enorme ou mais ramp.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp",
+            "stompy"
+          ]
+        },
+        {
+          "text": "Uma peça que completa minha máquina.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact",
+            "combo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "section": "Estilo de jogo",
+      "text": "Você prefere partidas com qual ritmo?",
+      "options": [
+        {
+          "text": "Estáveis, com presença constante na mesa.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Lentas, de decisões precisas e respostas.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Com reviravoltas e negociação de recursos.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Rápidas, intensas e agressivas.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Que cresçam até um clímax gigantesco.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "De montagem gradual de um mecanismo complexo.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact",
+            "combo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "section": "Estilo de jogo",
+      "text": "Qual mecânica te chama mais atenção?",
+      "options": [
+        {
+          "text": "Fichas, proteção e ganhar vida.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens",
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Anulações, compra e devolver permanentes.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control",
+            "draw"
+          ]
+        },
+        {
+          "text": "Sacrifício, descarte e reanimação.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice",
+            "reanimator"
+          ]
+        },
+        {
+          "text": "Dano direto, ímpeto e mágicas em cadeia.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn",
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Rampa, marcadores +1/+1 e atropelar.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp",
+            "stompy"
+          ]
+        },
+        {
+          "text": "Artefatos, mana {C} e habilidades ativadas.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "section": "Estilo de jogo",
+      "text": "Qual estilo de vitória te dá mais satisfação?",
+      "options": [
+        {
+          "text": "Ganhar com dezenas de criaturas trabalhando juntas.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Uma linha de controle ou combo calculado.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "combo",
+            "control"
+          ]
+        },
+        {
+          "text": "Drenar vida e explorar recursos do cemitério.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "aristocrats",
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Finalizar com um ataque surpresa ou burn.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro",
+            "burn"
+          ]
+        },
+        {
+          "text": "Bater com um monstro gigantesco.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        },
+        {
+          "text": "Usar artefatos e Eldrazi para dominar.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact",
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "section": "Estilo de jogo",
+      "text": "No combate, qual decisão é sua cara?",
+      "options": [
+        {
+          "text": "Fazer blocos bons e salvar aliados.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Usar truques e o timing perfeito.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Trocar uma criatura por vantagem futura.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Atacar mesmo que haja algum risco.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Vencer pelo tamanho e resistência.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "section": "Estilo de jogo",
+      "text": "Qual interação te parece mais divertida?",
+      "options": [
+        {
+          "text": "Impor limites equilibrados à mesa.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "stax"
+          ]
+        },
+        {
+          "text": "Anular a resposta do adversário.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Forçar oponente a sacrificar uma peça.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Queimar ou destruir a ameaça imediatamente.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn"
+          ]
+        },
+        {
+          "text": "Lutar com minhas criaturas contra as dele.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "section": "Commander e mesa",
+      "text": "No Commander, que imagem de comandante te atrai?",
+      "options": [
+        {
+          "text": "Um líder que fortalece muitos aliados.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Um mago que valoriza cada feitiço.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Uma figura que comanda o cemitério.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "reanimator",
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Uma criatura que incentiva ataques constantes.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Um colosso que faz a mesa crescer.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Um ser ancestral incolor ou construtor mecânico.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact",
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "section": "Commander e mesa",
+      "text": "Como você vê alianças em uma mesa multiplayer?",
+      "options": [
+        {
+          "text": "Acordos de ajuda mútua são importantes.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Prefiro negociações baseadas em informação.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "politics",
+            "control"
+          ]
+        },
+        {
+          "text": "Cada acordo deve gerar vantagem real.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Topo alianças divertidas e temporárias.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "politics",
+            "aggro"
+          ]
+        },
+        {
+          "text": "Prefiro jogo orgânico e pouca intriga.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "section": "Commander e mesa",
+      "text": "Quanto você gosta de combos com muitas peças?",
+      "options": [
+        {
+          "text": "Gosto quando incluem toda minha equipe.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Adoro calcular sequências longas.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Gosto de combos de sacrifício e drenagem.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "aristocrats",
+            "combo"
+          ]
+        },
+        {
+          "text": "Prefiro jogadas explosivas com poucas peças.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn",
+            "combo"
+          ]
+        },
+        {
+          "text": "Prefiro sinergias naturais de criaturas.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        },
+        {
+          "text": "Quero engrenagens de artefatos e infinitos.",
+          "w": {
+            "C": 3,
+            "U": 1
+          },
+          "tags": [
+            "artifact",
+            "combo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "section": "Commander e mesa",
+      "text": "Se sua mesa é muito agressiva, você prefere...",
+      "options": [
+        {
+          "text": "Criar proteção e ganhar vida.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Controlar a pilha e o tempo de jogo.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Remover os maiores perigos.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Participar da corrida de dano.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Colocar bloqueadores enormes.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "section": "Commander e mesa",
+      "text": "Que tipo de recurso você mais gosta de explorar?",
+      "options": [
+        {
+          "text": "Fichas e permanentes que se ajudam.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Cartas na mão e informação.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "draw"
+          ]
+        },
+        {
+          "text": "Vida, criaturas sacrificáveis e cemitério.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice",
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Mana temporária e dano explosivo.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn"
+          ]
+        },
+        {
+          "text": "Terrenos, ramp e marcadores.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Peças incolores e artefatos modulares.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "section": "Commander e mesa",
+      "text": "Qual destes arquétipos você montaria primeiro?",
+      "options": [
+        {
+          "text": "Tokens / go wide.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Control / spellslinger.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control",
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Aristocrats / reanimator.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "aristocrats",
+            "reanimator"
+          ]
+        },
+        {
+          "text": "Aggro / burn.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro",
+            "burn"
+          ]
+        },
+        {
+          "text": "Ramp / stompy.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp",
+            "stompy"
+          ]
+        },
+        {
+          "text": "Artifact combo / Eldrazi.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact",
+            "combo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "section": "Commander e mesa",
+      "text": "Como prefere lidar com uma ameaça que não pode matar?",
+      "options": [
+        {
+          "text": "Exilar ou impedir que cause dano.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Devolver para a mão ou anular antes.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Fazer o controlador sacrificá-la.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "sacrifice"
+          ]
+        },
+        {
+          "text": "Correr por cima e vencer antes.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Enfrentar com criatura ainda maior.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        },
+        {
+          "text": "Conter com uma resposta de artefato.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "section": "Commander e mesa",
+      "text": "Qual interação social numa partida é mais prazerosa?",
+      "options": [
+        {
+          "text": "Ajudar a mesa a funcionar de forma justa.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Ler os planos e blefar com conhecimento.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Negociar com inteligência e testar limites.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Fazer lances ousados que rendem histórias.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Mostrar um campo bonito cheio de sinergia.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "tribal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "section": "Commander e mesa",
+      "text": "Sobre a duração do Commander, você prefere...",
+      "options": [
+        {
+          "text": "Uma mesa em que todos consigam participar.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "politics"
+          ]
+        },
+        {
+          "text": "Partidas longas com muitas decisões.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Partidas complexas, com várias camadas.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "combo"
+          ]
+        },
+        {
+          "text": "Partidas rápidas, sem enrolação.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Uma partida média com crescimento progressivo.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "section": "Criaturas e fantasia",
+      "text": "Qual exército mais chama sua atenção?",
+      "options": [
+        {
+          "text": "Anjos, soldados e cavaleiros.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tribal",
+            "tokens"
+          ]
+        },
+        {
+          "text": "Magos, esfinges e tritões.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "tribal",
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Zumbis, vampiros e demônios.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "tribal",
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Goblins, dragões e fênix.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "tribal",
+            "aggro"
+          ]
+        },
+        {
+          "text": "Elfos, hidras e dinossauros.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "tribal",
+            "ramp"
+          ]
+        },
+        {
+          "text": "Eldrazi, golens e construtos.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "tribal",
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "section": "Criaturas e fantasia",
+      "text": "Qual transformação fantástica você gostaria de controlar?",
+      "options": [
+        {
+          "text": "Uma benção que protege um povo.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Ilusões que viram novas possibilidades.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "O retorno de mortos como aliados.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "reanimator"
+          ]
+        },
+        {
+          "text": "Um lobisomem se transformando sob a lua.",
+          "w": {
+            "R": 2,
+            "G": 2
+          },
+          "tags": [
+            "tribal",
+            "aggro"
+          ]
+        },
+        {
+          "text": "Um ser natural crescendo até o impossível.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        },
+        {
+          "text": "Uma criatura mecânica se adaptando.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "section": "Criaturas e fantasia",
+      "text": "Seu cenário favorito para uma aventura seria...",
+      "options": [
+        {
+          "text": "Uma cidade protegida por uma ordem de cavaleiros.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tribal"
+          ]
+        },
+        {
+          "text": "Uma biblioteca oceânica de conhecimento arcano.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Uma necrópole cheia de segredos.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Uma montanha em erupção ou festival caótico.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn"
+          ]
+        },
+        {
+          "text": "Uma floresta ancestral habitada por monstros.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "tribal"
+          ]
+        },
+        {
+          "text": "Um vazio cósmico de entidades incompreensíveis.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "section": "Criaturas e fantasia",
+      "text": "Você quer que suas criaturas sejam principalmente...",
+      "options": [
+        {
+          "text": "Numerosas e cooperativas.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Inteligentes, evasivas e cheias de habilidades.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Capazes de voltar do cemitério.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "graveyard",
+            "reanimator"
+          ]
+        },
+        {
+          "text": "Rápidas, imprevisíveis e agressivas.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Enormes, resistentes e ameaçadoras.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Artefatos independentes de cor.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "section": "Criaturas e fantasia",
+      "text": "Qual destas fantasias de deck é a mais divertida?",
+      "options": [
+        {
+          "text": "Comandar uma legião de anjos.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tribal",
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Lançar feitiços atrás de feitiços com magos.",
+          "w": {
+            "U": 3,
+            "R": 1
+          },
+          "tags": [
+            "spellslinger",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Reanimar um exército de zumbis.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "reanimator",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Comandar uma matilha de lobisomens.",
+          "w": {
+            "R": 2,
+            "G": 2
+          },
+          "tags": [
+            "tribal",
+            "aggro"
+          ]
+        },
+        {
+          "text": "Aumentar um enxame de elfos ou insetos.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "tokens",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Invocar titãs Eldrazi e construtos.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact",
+            "stompy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "section": "Criaturas e fantasia",
+      "text": "Seu comandante ideal deveria contar uma história de...",
+      "options": [
+        {
+          "text": "Justiça e solidariedade.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens"
+          ]
+        },
+        {
+          "text": "Descoberta e experimentos.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "spellslinger"
+          ]
+        },
+        {
+          "text": "Ambição, maldições e sobrevivência.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Rebelião, honra pessoal e paixão.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro"
+          ]
+        },
+        {
+          "text": "Tradição, natureza e crescimento.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp"
+          ]
+        },
+        {
+          "text": "Máquinas, cosmos e poder impessoal.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "section": "Criaturas e fantasia",
+      "text": "Qual aliança de criaturas parece mais legal?",
+      "options": [
+        {
+          "text": "Humanos e espíritos trabalhando juntos.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tokens",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Tritões e magos controlando as marés.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Vampiros e zumbis explorando a morte.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "graveyard",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Goblins e dragões trazendo o caos.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "aggro",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Elfos e lobos crescendo em matilha.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "ramp",
+            "tribal"
+          ]
+        },
+        {
+          "text": "Myr e construtos criando uma fábrica.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact",
+            "tribal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "section": "Criaturas e fantasia",
+      "text": "Se seu deck tivesse um tema visual, qual escolheria?",
+      "options": [
+        {
+          "text": "Luz, arquitetura e brasões.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "lifegain"
+          ]
+        },
+        {
+          "text": "Água, runas e ilusões.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "control"
+          ]
+        },
+        {
+          "text": "Sombras, cemitérios e horror gótico.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "graveyard"
+          ]
+        },
+        {
+          "text": "Chamas, tempestades e velocidade.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "burn"
+          ]
+        },
+        {
+          "text": "Raízes, feras e luas selvagens.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "stompy"
+          ]
+        },
+        {
+          "text": "Metais, estrelas e vazio.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "artifact"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "section": "Criaturas e fantasia",
+      "text": "Qual coleção de criaturas você mais gostaria de completar?",
+      "options": [
+        {
+          "text": "Anjos ou cavaleiros.",
+          "w": {
+            "W": 3
+          },
+          "tags": [
+            "tribal"
+          ]
+        },
+        {
+          "text": "Magos ou fadas.",
+          "w": {
+            "U": 3
+          },
+          "tags": [
+            "tribal",
+            "control"
+          ]
+        },
+        {
+          "text": "Vampiros ou demônios.",
+          "w": {
+            "B": 3
+          },
+          "tags": [
+            "tribal",
+            "reanimator"
+          ]
+        },
+        {
+          "text": "Dragões ou goblins.",
+          "w": {
+            "R": 3
+          },
+          "tags": [
+            "tribal",
+            "aggro"
+          ]
+        },
+        {
+          "text": "Elfos ou dinossauros.",
+          "w": {
+            "G": 3
+          },
+          "tags": [
+            "tribal",
+            "ramp"
+          ]
+        },
+        {
+          "text": "Eldrazi ou Myr.",
+          "w": {
+            "C": 3
+          },
+          "tags": [
+            "tribal",
+            "artifact"
+          ]
+        }
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": "W",
+      "name": "Branco",
+      "mana": "Planície",
+      "hex": "#e8d8aa",
+      "dark": "#d9c38b",
+      "philosophy": "ordem, cooperação, justiça e proteção",
+      "play": "fichas, ganho de vida, regras e proteção"
+    },
+    {
+      "id": "U",
+      "name": "Azul",
+      "mana": "Ilha",
+      "hex": "#61bafa",
+      "dark": "#2389c9",
+      "philosophy": "conhecimento, análise e aperfeiçoamento",
+      "play": "anulações, compra, tempo e controle"
+    },
+    {
+      "id": "B",
+      "name": "Preto",
+      "mana": "Pântano",
+      "hex": "#9e86bd",
+      "dark": "#665078",
+      "philosophy": "ambição, autonomia e pragmatismo",
+      "play": "remoção, sacrifício, reanimação e descarte"
+    },
+    {
+      "id": "R",
+      "name": "Vermelho",
+      "mana": "Montanha",
+      "hex": "#f57b64",
+      "dark": "#c7453e",
+      "philosophy": "liberdade, emoção e espontaneidade",
+      "play": "agressão, dano direto e explosões de mana"
+    },
+    {
+      "id": "G",
+      "name": "Verde",
+      "mana": "Floresta",
+      "hex": "#67ca9b",
+      "dark": "#25875f",
+      "philosophy": "natureza, crescimento e interdependência",
+      "play": "ramp, criaturas grandes e marcadores"
+    }
+  ],
+  "combos": {
+    "WU": [
+      "Azorius",
+      "ordem e controle; respostas e restrições"
+    ],
+    "UB": [
+      "Dimir",
+      "informação, evasão e manipulação"
+    ],
+    "BR": [
+      "Rakdos",
+      "agressão, sacrifício e dano"
+    ],
+    "RG": [
+      "Gruul",
+      "pressão de combate, ramp e criaturas ferozes"
+    ],
+    "WG": [
+      "Selesnya",
+      "cooperação, fichas e crescimento coletivo"
+    ],
+    "WB": [
+      "Orzhov",
+      "drenagem, valor e sacrifícios organizados"
+    ],
+    "UR": [
+      "Izzet",
+      "criatividade, mágicas instantâneas e feitiços"
+    ],
+    "BG": [
+      "Golgari",
+      "cemitério, reciclagem e vida/morte"
+    ],
+    "WR": [
+      "Boros",
+      "ataques coordenados, equipamentos e iniciativa"
+    ],
+    "UG": [
+      "Simic",
+      "evolução, compra, marcadores e ramp"
+    ],
+    "WUG": [
+      "Bant",
+      "defesa, sinergia e valor"
+    ],
+    "WUB": [
+      "Esper",
+      "controle, artefatos e precisão"
+    ],
+    "UBR": [
+      "Grixis",
+      "remoções, mágicas e cemitério"
+    ],
+    "BRG": [
+      "Jund",
+      "sacrifício, feras e recursos"
+    ],
+    "WRG": [
+      "Naya",
+      "combate, mana e criaturas imponentes"
+    ],
+    "WBG": [
+      "Abzan",
+      "resistência, marcadores e reciclagem"
+    ],
+    "WUR": [
+      "Jeskai",
+      "tempo e mágicas criativas"
+    ],
+    "UBG": [
+      "Sultai",
+      "valor, cemitério e controle"
+    ],
+    "WBR": [
+      "Mardu",
+      "agressão, fichas e sacrifícios"
+    ],
+    "URG": [
+      "Temur",
+      "ramp, feitiços e ameaças grandes"
+    ],
+    "WUBR": [
+      "4 cores sem verde • Artifice",
+      "artefatos e combinação de recursos"
+    ],
+    "UBRG": [
+      "4 cores sem branco • Chaos",
+      "explosões e mágicas"
+    ],
+    "WBRG": [
+      "4 cores sem azul • Aggression",
+      "pressão, criaturas e combate"
+    ],
+    "WURG": [
+      "4 cores sem preto • Altruism",
+      "política, sinergia e feitiços"
+    ],
+    "WUBG": [
+      "4 cores sem vermelho • Growth",
+      "proliferação, valor e motores"
+    ],
+    "WUBRG": [
+      "Cinco cores • WUBRG",
+      "acesso a todas as filosofias e estratégias"
+    ]
+  },
+  "tribes": [
+    {
+      "name": "Anjos",
+      "type": "Angel",
+      "colors": "W",
+      "tags": [
+        "lifegain",
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Soldados",
+      "type": "Soldier",
+      "colors": "W",
+      "tags": [
+        "tokens",
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Cavaleiros",
+      "type": "Knight",
+      "colors": "WB",
+      "tags": [
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Espíritos",
+      "type": "Spirit",
+      "colors": "WU",
+      "tags": [
+        "tempo",
+        "tribal",
+        "control"
+      ]
+    },
+    {
+      "name": "Humanos",
+      "type": "Human",
+      "colors": "WG",
+      "tags": [
+        "tokens",
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Gatos",
+      "type": "Cat",
+      "colors": "WG",
+      "tags": [
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Clérigos",
+      "type": "Cleric",
+      "colors": "WB",
+      "tags": [
+        "lifegain",
+        "aristocrats",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Pegasos",
+      "type": "Pegasus",
+      "colors": "W",
+      "tags": [
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Unicórnios",
+      "type": "Unicorn",
+      "colors": "WG",
+      "tags": [
+        "lifegain",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Samurais",
+      "type": "Samurai",
+      "colors": "WR",
+      "tags": [
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Raposa",
+      "type": "Fox",
+      "colors": "W",
+      "tags": [
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Tritões",
+      "type": "Merfolk",
+      "colors": "UG",
+      "tags": [
+        "draw",
+        "control",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Magos",
+      "type": "Wizard",
+      "colors": "UR",
+      "tags": [
+        "spellslinger",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Fadas",
+      "type": "Faerie",
+      "colors": "UB",
+      "tags": [
+        "tempo",
+        "control",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Esfinges",
+      "type": "Sphinx",
+      "colors": "U",
+      "tags": [
+        "control",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Ilusões",
+      "type": "Illusion",
+      "colors": "U",
+      "tags": [
+        "tempo",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Ninjas",
+      "type": "Ninja",
+      "colors": "UB",
+      "tags": [
+        "tempo",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Polvos",
+      "type": "Octopus",
+      "colors": "U",
+      "tags": [
+        "control",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Kraken",
+      "type": "Kraken",
+      "colors": "U",
+      "tags": [
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Piratas",
+      "type": "Pirate",
+      "colors": "UBR",
+      "tags": [
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Dracos",
+      "type": "Drake",
+      "colors": "UR",
+      "tags": [
+        "spellslinger",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Lontras",
+      "type": "Otter",
+      "colors": "UR",
+      "tags": [
+        "spellslinger",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Estranhos (Weirds)",
+      "type": "Weird",
+      "colors": "UR",
+      "tags": [
+        "spellslinger",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Vedalkeanos",
+      "type": "Vedalken",
+      "colors": "U",
+      "tags": [
+        "artifact",
+        "control"
+      ]
+    },
+    {
+      "name": "Zumbis",
+      "type": "Zombie",
+      "colors": "UB",
+      "tags": [
+        "graveyard",
+        "reanimator",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Vampiros",
+      "type": "Vampire",
+      "colors": "WBR",
+      "tags": [
+        "aristocrats",
+        "lifegain",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Demônios",
+      "type": "Demon",
+      "colors": "B",
+      "tags": [
+        "sacrifice",
+        "reanimator",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Esqueletos",
+      "type": "Skeleton",
+      "colors": "B",
+      "tags": [
+        "graveyard",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Ratos",
+      "type": "Rat",
+      "colors": "B",
+      "tags": [
+        "tokens",
+        "tribal",
+        "discard"
+      ]
+    },
+    {
+      "name": "Horrores",
+      "type": "Horror",
+      "colors": "UB",
+      "tags": [
+        "graveyard",
+        "control",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Bruxos",
+      "type": "Warlock",
+      "colors": "B",
+      "tags": [
+        "sacrifice",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Pesadelos",
+      "type": "Nightmare",
+      "colors": "B",
+      "tags": [
+        "graveyard",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Ladinos",
+      "type": "Rogue",
+      "colors": "UB",
+      "tags": [
+        "tempo",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Assassinos",
+      "type": "Assassin",
+      "colors": "B",
+      "tags": [
+        "tribal",
+        "control"
+      ]
+    },
+    {
+      "name": "Morcegos",
+      "type": "Bat",
+      "colors": "WB",
+      "tags": [
+        "lifegain",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Phyrexianos",
+      "type": "Phyrexian",
+      "colors": "WBG",
+      "tags": [
+        "poison",
+        "aristocrats",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Goblins",
+      "type": "Goblin",
+      "colors": "R",
+      "tags": [
+        "aggro",
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Dragões",
+      "type": "Dragon",
+      "colors": "R",
+      "tags": [
+        "stompy",
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Fênix",
+      "type": "Phoenix",
+      "colors": "R",
+      "tags": [
+        "graveyard",
+        "burn",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Gigantes",
+      "type": "Giant",
+      "colors": "WR",
+      "tags": [
+        "stompy",
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Diabos",
+      "type": "Devil",
+      "colors": "R",
+      "tags": [
+        "burn",
+        "aggro"
+      ]
+    },
+    {
+      "name": "Minotauros",
+      "type": "Minotaur",
+      "colors": "BR",
+      "tags": [
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Elementais",
+      "type": "Elemental",
+      "colors": "URG",
+      "tags": [
+        "spellslinger",
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Lobisomens",
+      "type": "Werewolf",
+      "colors": "RG",
+      "tags": [
+        "aggro",
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Guerreiros",
+      "type": "Warrior",
+      "colors": "WR",
+      "tags": [
+        "aggro",
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Anões",
+      "type": "Dwarf",
+      "colors": "WR",
+      "tags": [
+        "artifact",
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Orcs",
+      "type": "Orc",
+      "colors": "BR",
+      "tags": [
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Elfos",
+      "type": "Elf",
+      "colors": "G",
+      "tags": [
+        "ramp",
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Lobos",
+      "type": "Wolf",
+      "colors": "G",
+      "tags": [
+        "tokens",
+        "aggro",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Dinossauros",
+      "type": "Dinosaur",
+      "colors": "WRG",
+      "tags": [
+        "ramp",
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Hidras",
+      "type": "Hydra",
+      "colors": "G",
+      "tags": [
+        "stompy",
+        "ramp",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Dríades",
+      "type": "Dryad",
+      "colors": "G",
+      "tags": [
+        "ramp",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Bestas",
+      "type": "Beast",
+      "colors": "G",
+      "tags": [
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Insetos",
+      "type": "Insect",
+      "colors": "BG",
+      "tags": [
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Saprófitas",
+      "type": "Saproling",
+      "colors": "BG",
+      "tags": [
+        "tokens",
+        "aristocrats",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Árvores",
+      "type": "Treefolk",
+      "colors": "BG",
+      "tags": [
+        "ramp",
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Cogumelos",
+      "type": "Fungus",
+      "colors": "BG",
+      "tags": [
+        "tokens",
+        "graveyard"
+      ]
+    },
+    {
+      "name": "Cobras",
+      "type": "Snake",
+      "colors": "BG",
+      "tags": [
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Sapos",
+      "type": "Frog",
+      "colors": "UG",
+      "tags": [
+        "value",
+        "ramp",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Esquilos",
+      "type": "Squirrel",
+      "colors": "BG",
+      "tags": [
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Trolls",
+      "type": "Troll",
+      "colors": "G",
+      "tags": [
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Mutantes",
+      "type": "Mutant",
+      "colors": "UG",
+      "tags": [
+        "counters",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Tubarões",
+      "type": "Shark",
+      "colors": "UG",
+      "tags": [
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Eldrazi",
+      "type": "Eldrazi",
+      "colors": "C",
+      "tags": [
+        "stompy",
+        "artifact",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Myr",
+      "type": "Myr",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "combo",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Construtos",
+      "type": "Construct",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Golens",
+      "type": "Golem",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "stompy",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Tópteros",
+      "type": "Thopter",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Servos",
+      "type": "Servo",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "tokens",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Espantalhos",
+      "type": "Scarecrow",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Robôs",
+      "type": "Robot",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "tribal"
+      ]
+    },
+    {
+      "name": "Juggernautas",
+      "type": "Juggernaut",
+      "colors": "C",
+      "tags": [
+        "artifact",
+        "stompy",
+        "tribal"
+      ]
+    }
+  ],
+  "types": [
+    "Advisor",
+    "Aenar",
+    "Aetherborn",
+    "Alien",
+    "Ally",
+    "Andorian",
+    "Android",
+    "Angel",
+    "Antelope",
+    "Ape",
+    "Archer",
+    "Archon",
+    "Armadillo",
+    "Army",
+    "Artificer",
+    "Assassin",
+    "Assembly-Worker",
+    "Astartes",
+    "Atog",
+    "Aurochs",
+    "Avatar",
+    "Azra",
+    "Badger",
+    "Bajoran",
+    "Balloon",
+    "Barbarian",
+    "Bard",
+    "Basilisk",
+    "Bat",
+    "Bear",
+    "Beast",
+    "Beaver",
+    "Beeble",
+    "Beholder",
+    "Berserker",
+    "Betazoid",
+    "Bird",
+    "Bison",
+    "Blinkmoth",
+    "Boar",
+    "Bolian",
+    "Borg",
+    "Brikar",
+    "Bringer",
+    "Brushwagg",
+    "C'tan",
+    "Caitian",
+    "Camarid",
+    "Camel",
+    "Capybara",
+    "Cardassian",
+    "Caribou",
+    "Carrier",
+    "Cat",
+    "Centaur",
+    "Child",
+    "Chimera",
+    "Citizen",
+    "Cleric",
+    "Clown",
+    "Cockatrice",
+    "Construct",
+    "Coward",
+    "Coyote",
+    "Crab",
+    "Crocodile",
+    "Custodes",
+    "Cyberman",
+    "Cyclops",
+    "Dalek",
+    "Dauthi",
+    "Demigod",
+    "Demon",
+    "Denobulan",
+    "Deserter",
+    "Detective",
+    "Devil",
+    "Dinosaur",
+    "Djinn",
+    "Doctor",
+    "Dog",
+    "Dragon",
+    "Drake",
+    "Dreadnought",
+    "Drix",
+    "Drone",
+    "Druid",
+    "Dryad",
+    "Dwarf",
+    "Echidna",
+    "Edosian",
+    "Efreet",
+    "Egg",
+    "El-Aurian",
+    "Elder",
+    "Eldrazi",
+    "Elemental",
+    "Elephant",
+    "Elf",
+    "Elk",
+    "Employee",
+    "Eternal",
+    "Excalbian",
+    "Eye",
+    "Faerie",
+    "Ferengi",
+    "Ferret",
+    "Fish",
+    "Flagbearer",
+    "Fox",
+    "Fractal",
+    "Frog",
+    "Fungus",
+    "Gamer",
+    "Gamma",
+    "Gargoyle",
+    "Germ",
+    "Giant",
+    "Giraffe",
+    "Gith",
+    "Glimmer",
+    "Gnoll",
+    "Gnome",
+    "Goat",
+    "Goblin",
+    "God",
+    "Golem",
+    "Gorgon",
+    "Gorn",
+    "Graveborn",
+    "Gremlin",
+    "Griffin",
+    "Guest",
+    "Hag",
+    "Halfling",
+    "Hamster",
+    "Harpy",
+    "Hedgehog",
+    "Hellion",
+    "Hero",
+    "Hippo",
+    "Hippogriff",
+    "Hirogen",
+    "Homarid",
+    "Homunculus",
+    "Horror",
+    "Horse",
+    "Human",
+    "Hydra",
+    "Hyena",
+    "Illusion",
+    "Illyrian",
+    "Imp",
+    "Incarnation",
+    "Inhuman",
+    "Inkling",
+    "Inquisitor",
+    "Insect",
+    "Jackal",
+    "Jellyfish",
+    "Jem'Hadar",
+    "Juggernaut",
+    "Kangaroo",
+    "Kavu",
+    "Kelpien",
+    "Kirin",
+    "Kithkin",
+    "Klingon",
+    "Knight",
+    "Kobold",
+    "Kor",
+    "Kraken",
+    "Kree",
+    "Kwejian",
+    "Lamia",
+    "Lammasu",
+    "Lanthanite",
+    "Leech",
+    "Lemur",
+    "Leviathan",
+    "Lhurgoyf",
+    "Licid",
+    "Lizard",
+    "Llama",
+    "Lobster",
+    "Manticore",
+    "Masticore",
+    "Medusan",
+    "Melkotian",
+    "Mercenary",
+    "Merfolk",
+    "Metathran",
+    "Minion",
+    "Minotaur",
+    "Mite",
+    "Mole",
+    "Monger",
+    "Mongoose",
+    "Monk",
+    "Monkey",
+    "Moogle",
+    "Moonfolk",
+    "Mount",
+    "Mouse",
+    "Mutant",
+    "Myr",
+    "Mystic",
+    "Na'kuhl",
+    "Nautilus",
+    "Necron",
+    "Nephilim",
+    "Nightmare",
+    "Nightstalker",
+    "Ninja",
+    "Noble",
+    "Noggle",
+    "Nomad",
+    "Nymph",
+    "Ocampa",
+    "Octopus",
+    "Officer",
+    "Ogre",
+    "Ooze",
+    "Orb",
+    "Orc",
+    "Orgg",
+    "Orion",
+    "Otter",
+    "Ouphe",
+    "Ox",
+    "Oyster",
+    "Pangolin",
+    "Peasant",
+    "Pegasus",
+    "Pentavite",
+    "Performer",
+    "Pest",
+    "Phelddagrif",
+    "Phoenix",
+    "Phyrexian",
+    "Pilot",
+    "Pincher",
+    "Pirate",
+    "Plant",
+    "Platypus",
+    "Porcupine",
+    "Possum",
+    "Praetor",
+    "Primarch",
+    "Prism",
+    "Processor",
+    "Q",
+    "Qu",
+    "Rabbit",
+    "Raccoon",
+    "Ranger",
+    "Rat",
+    "Rebel",
+    "Reflection",
+    "Rhino",
+    "Rigger",
+    "Robot",
+    "Rogue",
+    "Romulan",
+    "Sable",
+    "Salamander",
+    "Samurai",
+    "Sand",
+    "Saproling",
+    "Satyr",
+    "Scarecrow",
+    "Scientist",
+    "Scion",
+    "Scorpion",
+    "Scout",
+    "Sculpture",
+    "Seal",
+    "Serf",
+    "Serpent",
+    "Servo",
+    "Shade",
+    "Shaman",
+    "Shapeshifter",
+    "Shark",
+    "Sheep",
+    "Shi'ar",
+    "Siren",
+    "Skeleton",
+    "Skrull",
+    "Skunk",
+    "Slith",
+    "Sliver",
+    "Sloth",
+    "Slug",
+    "Snail",
+    "Snake",
+    "Soldier",
+    "Soltari",
+    "Sorcerer",
+    "Spawn",
+    "Specter",
+    "Spellshaper",
+    "Sphinx",
+    "Spider",
+    "Spike",
+    "Spirit",
+    "Splinter",
+    "Sponge",
+    "Spy",
+    "Squid",
+    "Squirrel",
+    "Starfish",
+    "Surrakar",
+    "Survivor",
+    "Symbiote",
+    "Synth",
+    "Talaxian",
+    "Talosian",
+    "Tamarian",
+    "Tellarite",
+    "Tentacle",
+    "Tetravite",
+    "Thalakos",
+    "Tholian",
+    "Thopter",
+    "Thrull",
+    "Tiefling",
+    "Time Lord",
+    "Tosk",
+    "Toy",
+    "Treefolk",
+    "Tribble",
+    "Trill",
+    "Trilobite",
+    "Triskelavite",
+    "Troll",
+    "Turtle",
+    "Tyranid",
+    "Unicorn",
+    "Utrom",
+    "Vampire",
+    "Varmint",
+    "Vau-N'Akat",
+    "Vedalken",
+    "Villain",
+    "Volver",
+    "Vorta",
+    "Vulcan",
+    "Wall",
+    "Walrus",
+    "Warlock",
+    "Warrior",
+    "Weasel",
+    "Weird",
+    "Werewolf",
+    "Whale",
+    "Wizard",
+    "Wolf",
+    "Wolverine",
+    "Wombat",
+    "Worm",
+    "Wraith",
+    "Wurm",
+    "Xindi",
+    "Yeti",
+    "Zombie",
+    "Zubera"
+  ]
+}
